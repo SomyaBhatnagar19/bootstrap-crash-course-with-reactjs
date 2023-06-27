@@ -3,7 +3,9 @@ import './App.css';
 
 import {Container, Navbar} from 'react-bootstrap';
 
-import Counter from './Components/Counter';
+// import Counter from './Components/Counter';
+
+import Register from './Components/Registration';
 
 const App = () => {
   return (
@@ -13,7 +15,8 @@ const App = () => {
         <Navbar.Brand href='/'>React Bootstrap</Navbar.Brand>
      </Container>
      </Navbar>
-     <Counter></Counter>
+     {/* <Counter></Counter> */}
+     <Register></Register>
     </>
   );
 }
