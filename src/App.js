@@ -2,6 +2,9 @@
 import './App.css';
 
 import {Container, Navbar} from 'react-bootstrap';
+
+import Counter from './Components/Counter';
+
 const App = () => {
   return (
     <>
@@ -10,7 +13,7 @@ const App = () => {
         <Navbar.Brand href='/'>React Bootstrap</Navbar.Brand>
      </Container>
      </Navbar>
-     
+     <Counter></Counter>
     </>
   );
 }
